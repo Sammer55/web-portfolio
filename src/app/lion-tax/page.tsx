@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Lion Tax",
     description:
       "Lion Tax é um projeto inovador desenvolvido para facilitar e otimizar a gestão de impostos de Pessoa Física, proporcionando eficiência, segurança e tranquilidade aos contabilistas e contribuintes. Com a missão de simplificar a vida dos usuários, a Lion Tax oferece soluções inteligentes que revolucionam a forma como lidamos com obrigações fiscais.",
-    images: ["/lion-tax/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 

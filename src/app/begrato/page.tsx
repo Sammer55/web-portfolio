@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Begrato",
     description:
       "Rede inteligente de turismo onde o viajante tem uma experiência real de lugares e acontecimentos.",
-    images: ["/begrato/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 
