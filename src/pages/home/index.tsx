@@ -3,7 +3,7 @@ import User from "./user";
 
 export default function Home() {
   return (
-    <div className="pt-[60px] pb-[16px]">
+    <div className="pt-[60px] pb-[16px] overflow-x-hidden">
       <User />
 
       <div className="mb-[16px]">
