@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "CSD Real",
     description:
       "O CSD Real é um novo aplicativo de relacionamentos que conecta babys com daddys/mommys de todo o mundo. O objetivo é criar um ambiente seguro e confortável para que os usuários possam encontrar o par perfeito e vivenciar o amor.",
-    images: ["/csd-real/logo.png"],
+    images: ["/logo.png"],
   },
 };
 
