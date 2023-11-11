@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     default: "Home | Sammer",
     template: "%s | Sammer",
   },
-  description: "Sammer Portfolio",
+  description:
+    "Desenvolvedor Front-end com 3 anos de experiência. Especialista em HTML, CSS, JavaScript, TypeScript, ReactJs, e NextJs.",
   metadataBase: new URL("https://sammer.website"),
   openGraph: {
     images: ["/avatar.png"],
