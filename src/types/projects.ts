@@ -14,9 +14,7 @@ export type Techs =
   | "firebase"
   | "react"
   | "next"
-  | "reactnative"
   | "typescript"
   | "javascript"
   | "android"
-  | "ios"
-  | "php";
+  | "ios";

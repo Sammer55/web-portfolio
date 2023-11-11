@@ -8,7 +8,7 @@ export default function Footer() {
       <p className="text-white text-center">
         &copy; {year} · feito com ❤️ por{" "}
         <Link
-          style={{ color: "#00BFFF", textDecoration: "underline" }}
+          style={{ color: "#69d6fb", textDecoration: "underline" }}
           href="https://github.com/Sammer55"
           target="_blank"
         >

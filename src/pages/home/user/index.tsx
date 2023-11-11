@@ -28,25 +28,25 @@ export default function User() {
       </p>
       <div className="mt-[24px] flex justify-end mr-[8px]">
         <div className="tooltip" data-tip="Twitter / X">
-          <Link href={twitter} target="_blank">
-            <i className="text-md p-[8px] devicon-twitter-original" />
+          <Link aria-label="Twitter" href={twitter} target="_blank">
+            <i className="text-md p-[16px] devicon-twitter-original" />
           </Link>
         </div>
 
         <div className="tooltip" data-tip="LinkedIn">
-          <Link href={linkedin} target="_blank">
-            <i className="text-lg p-[8px] devicon-linkedin-plain" />
+          <Link aria-label="LinkedIn" href={linkedin} target="_blank">
+            <i className="text-lg p-[16px] devicon-linkedin-plain" />
           </Link>
         </div>
 
         <div className="tooltip" data-tip="GitHub">
-          <Link href={github} target="_blank">
-            <i className="text-xl p-[8px] devicon-github-original" />
+          <Link aria-label="GitHub" href={github} target="_blank">
+            <i className="text-xl p-[16px] devicon-github-original" />
           </Link>
         </div>
 
         <div className="tooltip" data-tip="Developeach">
-          <Link href={developeach} target="_blank">
+          <Link aria-label="Developeach" href={developeach} target="_blank">
             <Image
               src="/developeach.svg"
               width={24}
