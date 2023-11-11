@@ -7,8 +7,12 @@ import Footer from "src/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home | Sammer",
-  description: "Bla bla bla bla",
+  title: {
+    default: "Home | Sammer",
+    template: "%s | Sammer",
+  },
+  description: "Sammer Portfolio",
+  metadataBase: new URL("https://sammer.website"),
 };
 
 export default function RootLayout({
@@ -23,6 +27,7 @@ export default function RootLayout({
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
       />
+
       <body
         className={`${inter.className} m-auto max-w-[1180px] p-[8px] tracking-wide`}
       >

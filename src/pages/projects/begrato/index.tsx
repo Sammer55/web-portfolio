@@ -16,6 +16,7 @@ const technologies = [
   "Linguagem: tradução para inglês, espanhol, português, russo, alemão e japonês.",
   "Tradução de texto: botão que traduz as descrições dos posts pra linguagem armazenada no seu storage.",
   "Cripto: integração com cripto pra saque de moedas obtidas através de avaliações nas publicações.",
+  "Push notifications: notificações por push usando Expo e Firebase.",
 ];
 
 export default function Begrato() {
