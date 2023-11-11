@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <link rel="icon" href="/logo.svg" sizes="any" />
       <body className={`${inter.className} m-auto max-w-[1180px] p-[8px]`}>
         <Header />
