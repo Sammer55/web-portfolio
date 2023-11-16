@@ -23,7 +23,7 @@ export default function User() {
       <h1 className="text-lg font-semibold">Oi, eu sou o Sammer! 👋🏻</h1>
       <p className="font-extralight">
         Desenvolvedor Front-end com 3 anos de experiência. Especialista em HTML,
-        CSS, JavaScript, TypeScript, ReactJs, e NextJs.
+        CSS, JavaScript, TypeScript, ReactJs, React Native e NextJs.
       </p>
       <div className="mt-[24px] flex justify-end mr-[8px]">
         <div className="tooltip" data-tip="Twitter / X">

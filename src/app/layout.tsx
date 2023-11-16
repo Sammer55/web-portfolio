@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Sammer",
   },
   description:
-    "Desenvolvedor Front-end com 3 anos de experiência. Especialista em HTML, CSS, JavaScript, TypeScript, ReactJs, e NextJs.",
+    "Desenvolvedor Front-end com 3 anos de experiência. Especialista em HTML, CSS, JavaScript, TypeScript, ReactJs, React Native e NextJs.",
   metadataBase: new URL("https://sammer.website"),
   openGraph: {
     images: ["/avatar.png"],
