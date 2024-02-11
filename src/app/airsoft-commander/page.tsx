@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Airsoft Commander",
     description:
       "O Airsoft Commander é um aplicativo projetado com a intenção de unir praticantes de Airsoft de todo o mundo em uma comunidade global.",
-    images: ["/airsoft-commander/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Capt Data",
     description:
       "Aplicativo de coleta de dados em campo com funcionamento offline e online, possibilitando a coleta das informações em qualquer lugar mesmo que sem conexão à internet.",
-    images: ["/capt-data/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 

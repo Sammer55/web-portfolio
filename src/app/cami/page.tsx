@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     siteName: "Cami | Sammer",
     title: "Cami",
     description: "Carretos e mudanças, sem demora, quando e onde quiser.",
-    images: ["/cami/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 

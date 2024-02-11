@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Cenbrap",
     description:
       "Este aplicativo dará acesso ao Portal do Aluno da Faculdade CENBRAP, instituição de ensino superior credenciada no MEC pela Portaria MEC/GM n. 918/2018.",
-    images: ["/cenbrap/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 

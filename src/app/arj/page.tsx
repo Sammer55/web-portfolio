@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "ARJ",
     description:
       "O aplicativo permite que os usuários fiquem atualizados sobre todos os passos do processo de Recuperação Judicial e também obtenham informações atualizadas sobre a saúde financeira da empresa em recuperação.",
-    images: ["/arj/logo.svg"],
+    images: ["/logo.svg"],
   },
 };
 
