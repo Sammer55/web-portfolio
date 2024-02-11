@@ -9,7 +9,7 @@ export default function Header() {
   const router = useRouter();
 
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between ">
       <Link href="/">
         <Image width={40} height={40} src="/logo.svg" alt="Logo" quality={1} />
       </Link>

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { memo } from "react";
 import { Projects, Techs } from "src/types/projects";
 
 type Props = {
@@ -15,20 +16,17 @@ type Props = {
 
 const devicon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
 
-export const CustomDevicon = ({
-  src,
-  style,
-}: {
-  src: string;
-  style?: React.CSSProperties;
-}) => (
-  <Image
-    width={18}
-    height={18}
-    style={style}
-    alt="Tech Icon"
-    src={`${devicon}/${src}`}
-  />
+// eslint-disable-next-line react/display-name
+export const CustomDevicon = memo(
+  ({ src, style }: { src: string; style?: React.CSSProperties }) => (
+    <Image
+      width={18}
+      height={18}
+      style={style}
+      alt="Tech Icon"
+      src={`${devicon}/${src}`}
+    />
+  )
 );
 
 export default function Card({
@@ -68,10 +66,10 @@ export default function Card({
       className="hover:translate-y-[-3px] transition ease-in-out cursor-pointer card rounded-md bg-base-100 drop-shadow-lg"
     >
       {!isResume && (
-        <figure>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            style={{ width: "100%", objectFit: "cover", height: 160 }}
+        <figure className="h-[160px] relative">
+          <Image
+            fill
+            objectFit="cover"
             src={`/${project}/logo.svg`}
             alt={`Imagem representando o projeto ${project}`}
           />
@@ -86,11 +84,7 @@ export default function Card({
         {techs && (
           <div className="card-actions justify-end">
             {techs?.map((tech: Techs) => (
-              <div
-                key={tech}
-                className="tooltip tooltip-bottom"
-                data-tip={tech}
-              >
+              <div key={tech} data-tip={tech}>
                 {techIcon[tech]}
               </div>
             ))}
