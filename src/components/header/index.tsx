@@ -13,7 +13,13 @@ export default function Header() {
       <Link href="/">
         <Image width={40} height={40} src="/logo.svg" alt="Logo" quality={1} />
       </Link>
-      <Button onClick={() => router.push("/projects")}>Projetos</Button>
+      <Button
+        onClick={() =>
+          router.push("https://api.whatsapp.com/send?phone=5511957149860")
+        }
+      >
+        contato
+      </Button>
     </div>
   );
 }
