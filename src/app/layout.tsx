@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   },
   description: "Sammer Portfolio",
   metadataBase: new URL("https://sammer.website"),
+  openGraph: {
+    images: ["/avatar.png"],
+  },
 };
 
 export default function RootLayout({
