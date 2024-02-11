@@ -16,6 +16,7 @@ const technologies = [
   "Sistema de cadastro multistep: criação do perfil de forma gradual, salvando o step atual e retornando caso não tenha sido finalizado.",
   "Chat: com envio de mensagens de texto, imagens e áudio.",
   "Linguagem: com tradução pra inglês e espanhol utilizando i18next.",
+  "Push notifications: notificações por push usando Expo e Firebase.",
 ];
 
 export default function CsdReal() {

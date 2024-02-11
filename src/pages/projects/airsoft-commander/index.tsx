@@ -13,6 +13,7 @@ const technologies = [
   "Stripe: planos mensais de gerente de equipe ou organizador de eventos.",
   "HTML to PDF: converter html em pdf para listas de participantes dos eventos.",
   "Role: verificações por role sobre a tela onde o usuário estava pra exibir ou não componentes.",
+  "Push notifications: notificações por push usando Expo e Firebase.",
 ];
 
 export default function AirsoftCommander() {

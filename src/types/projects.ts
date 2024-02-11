@@ -8,7 +8,7 @@ export type Projects =
   | "lion-tax"
   | "logbeen"
   | "advlink"
-  | "hausey";
+  | "cenbrap";
 
 export type Techs =
   | "firebase"

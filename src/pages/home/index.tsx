@@ -79,10 +79,10 @@ export default function Home() {
           />
 
           <Card
-            project="hausey"
-            title="Hausey"
-            description="Healthtech com serviços de Telessaúde."
-            techs={["php"]}
+            project="cenbrap"
+            title="Cenbrap"
+            description="Portal do Aluno da Faculdade CENBRAP"
+            techs={["android", "ios", "javascript"]}
           />
         </div>
       </div>
