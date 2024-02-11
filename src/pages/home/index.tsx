@@ -33,7 +33,7 @@ export default function Home() {
             project="airsoft-commander"
             title="Airsoft Commander"
             description="Gerencie sua equipe e seus eventos de Airsoft."
-            techs={["android", "javascript"]}
+            techs={["android", "javascript", "react"]}
           />
 
           <Card
@@ -47,14 +47,14 @@ export default function Home() {
             project="cami"
             title="Cami"
             description="Mudança feita fácil: Tipo Uber, mas pro sofá!"
-            techs={["android", "ios", "typescript"]}
+            techs={["android", "ios", "typescript", "react"]}
           />
 
           <Card
             project="arj"
             title="ARJ"
             description="Administração judicial para juízes, advogados e credores."
-            techs={["android", "ios", "typescript"]}
+            techs={["android", "ios", "typescript", "react"]}
           />
 
           <Card
@@ -68,21 +68,21 @@ export default function Home() {
             project="capt-data"
             title="Capt Data"
             description="Registro de amostras de solo com facilidade."
-            techs={["android", "firebase"]}
+            techs={["android", "firebase", "react"]}
           />
 
           <Card
             project="advlink"
             title="AdvLink"
             description="Conectando a advocacia em todo o Brasil."
-            techs={["android", "ios", "javascript"]}
+            techs={["android", "ios", "javascript", "react"]}
           />
 
           <Card
             project="cenbrap"
             title="Cenbrap"
-            description="Portal do Aluno da Faculdade CENBRAP"
-            techs={["android", "ios", "javascript"]}
+            description="Portal do Aluno da Faculdade CENBRAP."
+            techs={["android", "ios", "javascript", "react"]}
           />
         </div>
       </div>

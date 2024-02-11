@@ -22,10 +22,8 @@ export default function User() {
       </div>
       <h1 className="text-lg font-semibold">Oi, eu sou o Sammer! 👋🏻</h1>
       <p className="font-extralight">
-        Desenvolvedor Front-end com 3 anos de experiência com foco em aplicações
-        mobile utilizando React Native. Sou especialista em HTML, CSS,
-        JavaScript, TypeScript, ReactJs, e NextJs tendo o React Native como meu
-        principal domínio.
+        Desenvolvedor Front-end com 3 anos de experiência. Especialista em HTML,
+        CSS, JavaScript, TypeScript, ReactJs, e NextJs.
       </p>
       <div className="mt-[24px] flex justify-end mr-[8px]">
         <div className="tooltip" data-tip="Twitter / X">
