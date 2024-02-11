@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Some of the projects I worked on and that are in my portfolio
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div>
+  <a target="_blank" title="CSD Real - Relacionamentos" href="https://www.sammer.website/csd-real"><img width="87" src="https://i.imgur.com/9oOG7eV.png"></a>
+  <a target="_blank" title="Lion Tax - Imposto de renda" href="https://www.sammer.website/lion-tax"><img width="87" src="https://i.imgur.com/izTnNnj.png"></a>
+  <a target="_blank" title="Airsoft Commander - Equipes e eventos" href="https://www.sammer.website/airsoft-commander"><img width="87" src="https://i.imgur.com/TORrqcG.png"></a>
+  <a target="_blank" title="Begrato - Rede social de turismo" href="https://www.sammer.website/begrato"><img width="87" src="https://i.imgur.com/t2D6yLP.png"></a>
+  <a target="_blank" title="Cami - Carretos e mudanças" href="https://www.sammer.website/cami"><img width="87" src="https://i.imgur.com/Y005KvO.png"></a>
+  <a target="_blank" title="ARJ - Administração Judicial" href="https://www.sammer.website/arj"><img width="87" src="https://i.imgur.com/E2R2MN8.png"></a>
+  <a target="_blank" title="Logbeen - Lembranças" href="https://www.sammer.website/logbeen"><img width="87" src="https://i.imgur.com/1C5BUy4.png"></a>
+  <a target="_blank" title="Capt Data - Amostras de solo" href="https://www.sammer.website/capt-data"><img width="87" src="https://i.imgur.com/RrgDO5u.png"></a>
+  <a target="_blank" title="AdvLink - Advocacia" href="https://www.sammer.website/advlink"><img width="87" src="https://i.imgur.com/XIhwY2Y.png"></a>
+</div>
