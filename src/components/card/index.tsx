@@ -69,6 +69,7 @@ export default function Card({
         <figure className="h-[160px] relative">
           <Image
             fill
+            loading="eager"
             objectFit="cover"
             src={`/${project}/logo.svg`}
             alt={`Imagem representando o projeto ${project}`}
