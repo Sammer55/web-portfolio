@@ -15,6 +15,22 @@ type Props = {
 
 const devicon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
 
+export const CustomDevicon = ({
+  src,
+  style,
+}: {
+  src: string;
+  style?: React.CSSProperties;
+}) => (
+  <Image
+    width={18}
+    height={18}
+    style={style}
+    alt="Tech Icon"
+    src={`${devicon}/${src}`}
+  />
+);
+
 export default function Card({
   project,
   techs,
@@ -26,36 +42,22 @@ export default function Card({
   const router = useRouter();
   const handleGoToProject = () => router.push(`/${project}`);
 
-  const CustomIcon = ({
-    src,
-    style,
-  }: {
-    src: string;
-    style?: React.CSSProperties;
-  }) => (
-    <Image width={18} height={18} style={style} alt="Tech Icon" src={src} />
-  );
-
   const techIcon = {
     next: (
-      <CustomIcon
+      <CustomDevicon
         style={{ filter: "invert(1)" }}
-        src={`${devicon}/nextjs/nextjs-original.svg`}
+        src={`nextjs/nextjs-original.svg`}
       />
     ),
-    react: <CustomIcon src={`${devicon}/react/react-original.svg`} />,
-    typescript: (
-      <CustomIcon src={`${devicon}/typescript/typescript-original.svg`} />
-    ),
-    javascript: (
-      <CustomIcon src={`${devicon}/javascript/javascript-original.svg`} />
-    ),
-    firebase: <CustomIcon src={`${devicon}/firebase/firebase-plain.svg`} />,
-    android: <CustomIcon src={`${devicon}/android/android-plain.svg`} />,
+    react: <CustomDevicon src={`react/react-original.svg`} />,
+    typescript: <CustomDevicon src={`typescript/typescript-original.svg`} />,
+    javascript: <CustomDevicon src={`javascript/javascript-original.svg`} />,
+    firebase: <CustomDevicon src={`firebase/firebase-plain.svg`} />,
+    android: <CustomDevicon src={`android/android-plain.svg`} />,
     ios: (
-      <CustomIcon
+      <CustomDevicon
         style={{ filter: "invert(1)" }}
-        src={`${devicon}/apple/apple-original.svg`}
+        src={`apple/apple-original.svg`}
       />
     ),
   };

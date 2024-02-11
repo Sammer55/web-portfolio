@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { CustomDevicon } from "src/components/card";
 
 const username = "Sammer55";
 const twitter = "https://twitter.com/sammerduarte";
@@ -29,30 +30,41 @@ export default function User() {
       <div className="mt-[24px] flex justify-end mr-[8px]">
         <div className="tooltip" data-tip="Twitter / X">
           <Link aria-label="Twitter" href={twitter} target="_blank">
-            <i className="text-md p-[16px] devicon-twitter-original" />
+            <div className="p-[12px]">
+              <CustomDevicon src="twitter/twitter-original.svg" />
+            </div>
           </Link>
         </div>
 
         <div className="tooltip" data-tip="LinkedIn">
           <Link aria-label="LinkedIn" href={linkedin} target="_blank">
-            <i className="text-lg p-[16px] devicon-linkedin-plain" />
+            <div className="p-[12px]">
+              <CustomDevicon src="linkedin/linkedin-original.svg" />
+            </div>
           </Link>
         </div>
 
         <div className="tooltip" data-tip="GitHub">
           <Link aria-label="GitHub" href={github} target="_blank">
-            <i className="text-xl p-[16px] devicon-github-original" />
+            <div className="p-[12px]">
+              <CustomDevicon
+                src="github/github-original.svg"
+                style={{ filter: "invert(1)" }}
+              />
+            </div>
           </Link>
         </div>
 
         <div className="tooltip" data-tip="Developeach">
           <Link aria-label="Developeach" href={developeach} target="_blank">
-            <Image
-              src="/developeach.svg"
-              width={24}
-              height={24}
-              alt="developeach"
-            />
+            <div className="p-[9px]">
+              <Image
+                src="/developeach.svg"
+                width={24}
+                height={24}
+                alt="developeach"
+              />
+            </div>
           </Link>
         </div>
       </div>

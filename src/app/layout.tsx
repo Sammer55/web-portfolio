@@ -23,11 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="/logo.svg" sizes="any" />
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-      />
-
       <body
         className={`${inter.className} m-auto max-w-[1180px] p-[8px] tracking-wide`}
       >
